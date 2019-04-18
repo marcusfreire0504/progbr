@@ -52,3 +52,15 @@
     width: 1vh;
     height: 1vw;
 }
+
+#base{
+    height: 10;
+    background-color: red;
+}
+
+#container{
+    background-color: blue;
+    color:white;
+    padding: 10px;
+    margin: 10px;
+}
