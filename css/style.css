@@ -1,6 +1,18 @@
 p{
 color: red;
 text-indent: 15px;
-text-shadow: 10px 10px 10px black;
+text-shadow: 1px 1px 5px #bbbbbb;
+font-family: Calibri, sans-serif
 
+}
+
+.links{
+    text-decoration: none;
+    color: darkslateblue;
+    background: beige;
+    padding: 10px;
+    cursor: move;
+}
+.links:hover{
+    background: #bbbbbb;
 }
