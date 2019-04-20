@@ -11,8 +11,9 @@ font-family: Calibri, sans-serif
     color: darkslateblue;
     background: beige;
     padding: 10px;
-    cursor: move;
+    cursor: crosshair;
 }
 .links:hover{
     background: #bbbbbb;
+
 }
