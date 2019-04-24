@@ -1,22 +1,31 @@
-function media(nota1, nota2){
-    var media = ((nota1 + nota2) /2)
-    return media
+var nomes = ["Nidio", "João", "Herbert" ]
+var notaA = [7, 8.1, 9.5]
+var notaB = [8, 1, 5]
+
+function media(n1, n2) {
+    return (n1 + n2) /2
 }
-//var resultado = media(6,7);
-if(media(6,6) > 6){
-    console.log("passou");
-}else{
-    console.log("não passou");
+
+function passou(media) {
+    if (media > 7) {
+        return "Aprovado"
+    } else {
+        return "Reprovado"
+    }
 }
+
+for (var index in nomes) {
+    var nota1 = notaA[index]
+    var nota2 = notaB[index]
+    var m = media(nota1, nota2)
+
+    console.log(nomes[index] +
+        " - " +
+        nota1 +
+        " - " +
+        nota2 +
+        " - " +
+        passou(m)
+    );
     
-
-var atual = 5200.00;
-
-//com R$
-var f = atual.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
-
-//sem R$
-var f2 = atual.toLocaleString('pt-br', {minimumFractionDigits: 2});
-
-console.log(f);
-console.log(f2);
+}
