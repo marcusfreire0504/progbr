@@ -7,16 +7,15 @@
 </head>
 <body>
 	<script>
+		
 		function changeH1(entradaValor){
 			let h1 = document.getElementsByTagName("h1")[0]
 			h1.innerText = entradaValor.value;
-
 		}	
 		
 	</script>
 
 	<h1> Clique em mim</h1>
-
 	<input type="text" onchange="changeH1(this)">
 
 </body>
