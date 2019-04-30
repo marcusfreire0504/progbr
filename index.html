@@ -4,20 +4,30 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-</head>
-<body>
-	<script>
-		function changeH1(entradaValor){
-			let h1 = document.getElementsByTagName("h1")[0]
-			h1.innerText = entradaValor.value;
 
-		}	
+	<script>
+		function loaded(){
+			let t = document.getElementById("titulo")
+
+			t.addEventListener("mouseover", mudarTexto)
+			t.addEventListener("mouseout", mouseOut)
+		}
+		function mudarTexto(){
+			this.innerHTML = "Mouse em cima"
+		}
+
+		function mouseOut(){
+			this.innerHTML = "mnouse fora"
+		}
 		
 	</script>
+</head>
+<body onload="loaded()">
 
-	<h1> Clique em mim</h1>
+	<h1 id="titulo">teste tetste te </h1>
+	<h1 id="titulo"> Clique em mim</h1>
 
-	<input type="text" onchange="changeH1(this)">
+	
 
 </body>
 </html>
