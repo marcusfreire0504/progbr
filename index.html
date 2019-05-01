@@ -5,23 +5,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 
+	<script>
+		window.onload = function(){
+			let d1 = document.getElementById("d1")
+			console.log(d1.children[1])
+
+		}
+	</script>
 
 </head>
 <body>
-	<h1 id="t1">titulo 1</h1>
-	<h2 id="t2"> texto H2</h2>
-	<script>
-let t1 = document.getElementById("t1")
-let t2 = document.getElementById("t2")
-
-t1.onclick = colocarEmMaiusculo;
-t2.onclick = colocarEmMaiusculo;
-
-function colocarEmMaiusculo(){
-	this.innerHTML = this.innerHTML.toUpperCase();
-}
-		
-	</script>
 
 </body>
+	<div id="d1">
+		<h1>Titulo</h1>
+		<p>Qualquer texto</p>
+	</div>
+	<div id="d2">
+		<h1>Titulo2</h1>
+		<p>Qualquer texto dois</p>
+	</div>
 </html>
