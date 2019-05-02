@@ -7,13 +7,20 @@
 
 	<script>
 
-		let pi = Math.random() * 100000
-		console.log(Math.round(pi))
+		localStorage.setItem( "nome", "Nidio");
+
+		let nome = localStorage.getItem("nome");
+
+		console.log(nome)
+
+		localStorage.removeItem(nome);
 
 	</script>
 
 </head>
 <body>
+
+	asfd
 
 </body>
 </html>
