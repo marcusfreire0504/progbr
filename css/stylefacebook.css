@@ -11,12 +11,70 @@
     font-family:  Helvetica, Arial, sans-serif;
     color: #ffffff;
 }
+.container{
+    max-width: 980px;
+    height: 82px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo{
-    background-image: url(../imagens/Modelo.jpg);
+    background-image: url(../imagens/logo-facebook-1024.png);
     background-size: auto;
     background-repeat: no-repeat;
     display: inline-block;
-    width: 170px;
-    height: 34px;
+    width: 230px;
+    height: 54px;
+    margin-top: 17px;
+}
+
+.formulario{
+    display: flex;
+}
+
+.inputemail, .inputpassword{
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    margin-left: 14px;
+}
+
+.labelInput{
+    padding-bottom: 4px
+
+}
+
+.linkPassword{
+  padding-top: 4px;
+  color: #9cb4d8;
+  text-decoration: none;
+}
+
+.linkPassword:hover{
+   text-decoration: underline;
+}
+.inputButtom{
+    margin-left: 14px;
+    width: 50px;
+    height: 23px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #4267b2;
+    border-color: #29487d;
+    color: #ffffff;
+    font-weight: 700px;
+    font-size: 13px;
+    padding: 2px, 6px;
+    cursor: pointer;
+}
+.inputButtom:hover{
+    background-color: #365899;
+}
+
+.input{
+    height: 23;
+    width: 150;
 }
