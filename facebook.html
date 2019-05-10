@@ -6,24 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/stylefacebook.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <div class="logo">Facebook</div>
+            <div class="logo"></div>
             <div class="form">
                 <form action="">
-                    <div class="inputemail"></div>
-                    <div class="inputpassword"></div>
-                    <a href="#">Esqueceu a Senha?</a> 
+                    <div class="inputemail">
+                        <label for="">Email ou telefone</label>
+                        <input type="email">
+                    </div>
+                    <div class="inputpassword">
+                        <label for="">Senha</label>
+                        <input type="password">
+                        <a href="#">Esqueceu a Conta?</a>
+                    </div>
+                    <input type="submit" value="Entrar">
+                </form>
             </div>
-            </form>
-
         </div>
-
     </header>
-
 </body>
 
 </html>
