@@ -1,17 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.header{
+.header {
     background-color: #3b5998;
     border-bottom: 1px solid #133783;
-    background-image: linear-gradient(#4e69a2, #3b5998 50% );
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
     min-height: 82px;
-    font-family:  Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: #ffffff;
 }
-.container{
+
+.container {
     max-width: 980px;
     height: 82px;
     margin: 0 auto;
@@ -20,7 +21,7 @@
     align-items: center;
 }
 
-.logo{
+.logo {
     background-image: url(../imagens/logo-facebook-1024.png);
     background-size: auto;
     background-repeat: no-repeat;
@@ -30,32 +31,33 @@
     margin-top: 17px;
 }
 
-.formulario{
+.formulario {
     display: flex;
 }
 
-.inputemail, .inputpassword{
+.inputemail,
+.inputpassword {
     display: flex;
     font-size: 12px;
     flex-direction: column;
     margin-left: 14px;
 }
 
-.labelInput{
+.labelInput {
     padding-bottom: 4px
-
 }
 
-.linkPassword{
-  padding-top: 4px;
-  color: #9cb4d8;
-  text-decoration: none;
+.linkPassword {
+    padding-top: 4px;
+    color: #9cb4d8;
+    text-decoration: none;
 }
 
-.linkPassword:hover{
-   text-decoration: underline;
+.linkPassword:hover {
+    text-decoration: underline;
 }
-.inputButtom{
+
+.inputButtom {
     margin-left: 14px;
     width: 50px;
     height: 23px;
@@ -70,11 +72,12 @@
     padding: 2px, 6px;
     cursor: pointer;
 }
-.inputButtom:hover{
+
+.inputButtom:hover {
     background-color: #365899;
 }
 
-.input{
+.input {
     height: 23;
     width: 150;
 }
